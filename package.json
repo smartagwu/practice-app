@@ -1,0 +1,12 @@
+{
+  "name": "practice-app",
+  "version": "1.0.0",
+  "description": "Quick test app running client side app and node server",
+  "main": "client/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "author": "Smart Agwu",
+  "license": "ISC"
+}
