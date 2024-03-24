@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 
 const server = http.createServer(function (req, res) {
-  const html = fs.readFileSync(__dirname.replace('server', '') + 'client/index.html', 'utf8');
+  const html = fs.readFileSync(__dirname.replace('server', '') + 'client/second.html', 'utf8');
   res.end(html);
 });
 
