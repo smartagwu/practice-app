@@ -6,6 +6,6 @@ const server = http.createServer(function (req, res) {
   res.end(html);
 });
 
-server.listen(3000, function () {
+server.listen(process.env.PORT || 3000, function () {
   console.log('started server')
 });
