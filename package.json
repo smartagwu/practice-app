@@ -4,8 +4,7 @@
   "description": "Quick test app running client side app and node server",
   "main": "client/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Smart Agwu",
   "license": "ISC"
